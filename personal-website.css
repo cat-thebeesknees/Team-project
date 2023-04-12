@@ -407,11 +407,12 @@ body {
 #zoo-project {
 
     float: left;
-    justify-content: center;
-    border: 1px solid darkred;
     color: bisque;
     text-align: center;
     box-sizing: content-box;
+    border: 1px solid sandybrown;
+    border-left-style: none;
+    border-right-style: none;
 }
 
 #zoo {
@@ -421,12 +422,12 @@ body {
 /*Vault*/
 #vault-heading {
     float: left;
-    justify-content: center;
-    border: 1px solid darkred;
     color: bisque;
     text-align: center;
     box-sizing: content-box;
-    font-size: x-large;
+    border: 1px solid sandybrown;
+    border-left-style: none;
+    border-right-style: none;
 }
 
 #vault {
@@ -434,7 +435,23 @@ body {
 }
 
 /*images*/
-
+#img-zoo {
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    align-content: center;
+}
+#safe-img {
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    align-content: center;
+    margin-top: 60px;
+}
 h2 {
     float: left;
     border: 1px solid darkred;
