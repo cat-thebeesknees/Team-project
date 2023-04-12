@@ -11,116 +11,125 @@
     <link rel="stylesheet" href="personal-website.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
 <body>
-    <body>
-        <div class="container">
-            <div class="row">
-                <div class="column">
-                    <div id="logo-img"> <img src="logo.png" alt="logo-img" width="210" height="180"> </div>
-                </div>
-    
-                <div class="column">
-                    <ul class="socials">
-    
-                        <li>
-    
-                            <a href="https://www.linkedin.com/in/catherine-hilton-61105b224" target="_blank"
-                                class="bi bi-linkedin"></a>
-    
-                        </li>
-    
-                        <li>
-                            <i>
-                                <a href="https://github.com/cat-thebeesknees" target="_blank" class="bi bi-github"></a>
-                            </i>
-                        </li>
+
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div id="logo-img"> <img src="logo.png" alt="logo-img" width="210" height="180"> </div>
+            </div>
+
+            <div class="column">
+                <ul class="socials">
+
+                    <li>
+
+                        <a href="https://www.linkedin.com/in/catherine-hilton-61105b224" target="_blank"
+                            class="bi bi-linkedin"></a>
+
+                    </li>
+
+                    <li>
                         <i>
-    
-                            <li><a href="https://www.discordapp.com/users/JustcallmeCat#4877" target="_blank"
-                                    class="bi bi-discord"></a>
-                            </li>
+                            <a href="https://github.com/cat-thebeesknees" target="_blank" class="bi bi-github"></a>
                         </i>
-    
-                    </ul>
-    
+                    </li>
+                    <i>
+
+                        <li><a href="https://www.discordapp.com/users/JustcallmeCat#4877" target="_blank"
+                                class="bi bi-discord"></a>
+                        </li>
+                    </i>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <header>
+                <ul class="tab">
+                    <li><a href="index.html" class="tablinks" onclick="openPage(event, 'Home')">Home</a></li>
+                    <li><a href="about.html" class="tablinks" onclick="openPage(event, 'About')">About</a></li>
+                    <li><a href="portfolio.html" class="tablinks" onclick="openPage(event, 'Portfolio')">Portfolio</a>
+                    </li>
+                    <li><a href="contact.html" class="tablinks" onclick="openPage(event, 'Contact Me')">Contact</a></li>
+
+                </ul>
+
+                <div id="Home" class="tabcontent">
+                    <h3>Home</h3>
+                    <p>Return Home</p>
                 </div>
-            </div>
-    
+
+                <div id="About" class="tabcontent">
+                    <h3>About</h3>
+                    <p>Personal Information</p>
+                </div>
+
+                <div id="Portfolio" class="tabcontent">
+                    <h3>Portfolio</h3>
+                    <p>Projects</p>
+                </div>
+
+                <div id="Contact" class="tabcontent">
+                    <h3>Contact</h3>
+                    <p>Contact Me</p>
+                </div>
+            </header>
+        </div>
+
+        <div class="introduction">
             <div class="row">
-                <header>
-                    <ul class="tab">
-                        <li><a href="index.html" class="tablinks" onclick="openPage(event, 'Home')">Home</a></li>
-                        <li><a href="about.html" class="tablinks" onclick="openPage(event, 'About')">About</a></li>
-                        <li><a href="portfolio.html" class="tablinks" onclick="openPage(event, 'Portfolio')">Portfolio</a></li>
-                            <li><a href="contact.html" class="tablinks" onclick="openPage(event, 'Contact Me')" >Contact</a></li>
-                        
-                    </ul>
-    
-                    <div id="Home" class="tabcontent">
-                        <h3>Home</h3>
-                        <p>Return Home</p>
-                    </div>
-    
-                    <div id="About" class="tabcontent">
-                        <h3>About</h3>
-                        <p>Personal Information</p>
-                    </div>
-    
-                    <div id="Portfolio" class="tabcontent">
-                        <h3>Portfolio</h3>
-                        <p>Projects</p>
-                    </div>
-                    
-                    <div id="Contact" class="tabcontent">
-                        <h3>Contact</h3>
-                        <p>Contact Me</p>
-                    </div>
-                </header>
+                <h1 class="animate__animated animate__lightSpeedInRight">Code I&#39;ve worked on so far!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" id="zoo-project">
+
+                <h4>Zoo Website</h4>
+            </div>
+            <div class="column" id="img-zoo">
+                <img typeof="foaf:Image"
+                    src="https://www.oregonzoo.org/sites/default/files/styles/exhibit_photo/public/2015/10/28/H_Zawadi-cubs-lions.jpg?itok=p516fbl_"
+                    width="300" height="200" alt="">
             </div>
 
-    <div class="introduction">
-        <h1>Code Ive worked on so far!</h1>
+            <div class="column" id="zoo">
+
+                <br> A website I created using html, and css. This is a project I did for my Web Development class. This
+                website featured links to external sites for the zookeepers to find information to care for each animal.
+
+            </div>
+
+
+        </div>
+
+        <div class="row" id="safe">
+            <div class="column" id="vault-heading">
+                <h4>Secure the Vault</h4>
+            </div>
+            <div class="column" id="safe-img">
+                <img fetchpriority="high" alt="Closed gray safe metal door. Protection and safety concept. 3D Rendering"
+                    aria-label="Image" class="mui-1qvdywb-image" data-automation="ImageContainer_Image"
+                    src="https://www.shutterstock.com/image-illustration/closed-gray-safe-metal-door-260nw-1675029994.jpg"
+                    width="300" height="200"
+                    style="background:url(&quot;https://www.shutterstock.com/image-illustration/closed-gray-safe-metal-door-260nw-1675029994.jpg&quot;) center top/cover">
+            </div>
+            <div class="column" id="vault">
+
+                <br>I used javascript, html, and css to create a prompt string that required the user to enter a code to
+                open a vitual vault.
+
+
+            </div>
+        </div>
+
     </div>
-
-    <section id="zoo-project">
-
-        <h4>Zoo Website</h4>
-
-        <img typeof="foaf:Image"
-            src="https://www.oregonzoo.org/sites/default/files/styles/exhibit_photo/public/2015/10/28/H_Zawadi-cubs-lions.jpg?itok=p516fbl_"
-            width="300" height="200" alt="">
-
-        <div class="zoo">
-
-            <br> A website I created using html, and css. This is a project I did for my Web Development class. This
-            website featured links to external sites for the zookeepers to find information to care for each animal.
-
-        </div>
-
-    </section>
-
-    <section class="safe">
-
-        <h4>Secure the Vault</h4>
-
-        <img fetchpriority="high" alt="Closed gray safe metal door. Protection and safety concept. 3D Rendering"
-            aria-label="Image" class="mui-1qvdywb-image" data-automation="ImageContainer_Image"
-            src="https://www.shutterstock.com/image-illustration/closed-gray-safe-metal-door-260nw-1675029994.jpg"
-            width="300" height="200"
-            style="background:url(&quot;https://www.shutterstock.com/image-illustration/closed-gray-safe-metal-door-260nw-1675029994.jpg&quot;) center top/cover">
-
-        <div class="vault">
-
-            <br>I used javascript, html, and css to create a prompt string that required the user to enter a code to
-            open a vitual vault.
-
-
-        </div>
-
-    </section>
 
 
 
@@ -137,7 +146,7 @@
 
 </body>
 <footer>
-    
+
 </footer>
 
 </html>
