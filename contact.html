@@ -85,23 +85,29 @@
         </div>
 
 
-        <div id="form">
-      
-   
-            <form action="submit"></form>
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value=""><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value=""><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" email="email" value=""><br><br>
-                <input type="submit" value="Submit">
-        
-        
-                
+        <div class="container">
+            <div id="form">
+                <form action="https://httpbin.org/post" method="post">
+                    
+          
+              <label for="fname">First Name</label><br>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label><br>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="email">Email</label><br>
+              <input type="email" id="email" name="email" placeholder="Your Email..">
+
+              <label for="subject">Subject</label><br>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+              <input type="submit" value="Submit">
+
             </form>
         </div>
-        
+        </div>
+
         <main>
             
       
