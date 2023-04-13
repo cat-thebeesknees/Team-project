@@ -1,32 +1,4 @@
-/*for small screens*/
-@media screen and (max-width: 639px) {
-    .column {
-        width: 100%;
-    }
 
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .socials {
-        display: flex;
-    }
-}
-
-/*for medium screens*/
-@media screen and (min-width:640px) and (max-width: 1279px) {}
-
-/*for large screens*/
-@media screen and (min-width: 1280px) {
-
-    /* .column-sm { display: contents;} */
-    ul.socials {
-        list-style-type: none;
-        float: right;
-        padding-right: 40px;
-    }
-}
 
 /*index.html*/
 .bg-black {
@@ -135,6 +107,10 @@ a:active {
     color: white;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+  }
 /*style heading 1*/
 h1 {
     text-align: center;
@@ -532,4 +508,62 @@ input[type=submit] {
 input[type=submit] {
     background: hsl(60, 100%, 59%);
     background-color: saddlebrown;
+}
+
+
+/*for small screens*/
+@media screen and (max-width: 639px) {
+    .column {
+        width: 100%;
+        flex: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .socials {
+        display: flex;
+        float: left;
+        justify-content: right;
+        
+    }
+    ul.socials {
+        flex-wrap: wrap;
+        display: flex;
+        float: right;
+        margin: revert;
+    }
+
+    body {
+        max-width: 100%;
+    }
+    .items {
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+
+     }
+
+}
+
+/*for medium screens*/
+@media screen and (min-width:640px) and (max-width: 1279px) {}
+
+/*for large screens*/
+@media screen and (min-width: 1280px) {
+
+    /* .column-sm { display: contents;} */
+    ul.socials {
+        list-style-type: none;
+        float: right;
+        padding-right: 40px;
+    }
 }
