@@ -187,9 +187,6 @@ h1 {
 #personal {
     padding-top: 50px;
 }
-
-/*Footer*/
-/*about.html*/
 /*Personality Characteristics*/
 #personality-heading.row {
     display: flex;
@@ -469,8 +466,7 @@ h5 {
 
 body {
     background: rgb(0, 0, 0);
-   
-}
+   }
 
 
 form {
@@ -480,10 +476,7 @@ form {
     width: fit-content;
     position: relative;
     top: 80px;
-    border: 2px solid goldenrod;
-
-    
-   
+    border: 2px solid goldenrod;    
     }
 
  label {
@@ -535,8 +528,7 @@ input[type=submit] {
     transition: all 0.3s;
     margin-top: -4px;
     font-weight: 700;
-       
-}
+    }
 input[type=submit] {
     background: hsl(60, 100%, 59%);
     background-color: saddlebrown;
