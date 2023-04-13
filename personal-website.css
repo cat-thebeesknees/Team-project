@@ -469,16 +469,22 @@ h5 {
 
 body {
     background: rgb(0, 0, 0);
+   
 }
 
-#form {
+
+form {
     margin: 50px auto;
     background-color: rgb(14, 14, 17);
     padding: 50px;
     width: fit-content;
     position: relative;
     top: 80px;
-}
+    border: 2px solid goldenrod;
+
+    
+   
+    }
 
  label {
     color: cadetblue;
