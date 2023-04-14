@@ -509,12 +509,11 @@ input[type=submit] {
     background: hsl(60, 100%, 59%);
     background-color: saddlebrown;
 }
-.contact-done {
-    background-color: steelblue;
+.contact-done{
     overflow: hidden;
 }
 body.done {
-    background-color: steelblue;
+    background-color: rgb(24, 77, 120);
     margin: 10px;
     padding: 10px
     
@@ -523,7 +522,7 @@ body.done {
     --animate-duration: 5s;
     font-family: serif;
     font-size: larger;
-    color: darkblue;
+    color:black;
 }
 .thanks {
     display: flex;
@@ -531,12 +530,28 @@ body.done {
     font-style: italic;
     justify-content: center;
     flex-wrap: wrap;
+    border: none;
     
+    }
+    .thanks-line {
+        border: none;
     }
 .awesome {
     text-align: center;
     align-self: center;
+    color: black;
+    border: none;
+
 }
+.animate__animated.animate__zoomIn {
+    --animate-duration: 10s;
+    font-family: serif;
+    font-size: larger;
+    color:black;
+    border: none;
+}
+
+
 /*for small screens*/
 @media screen and (max-width: 639px) {
     .column {
