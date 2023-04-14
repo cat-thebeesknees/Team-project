@@ -509,8 +509,34 @@ input[type=submit] {
     background: hsl(60, 100%, 59%);
     background-color: saddlebrown;
 }
-
-
+.contact-done {
+    background-color: steelblue;
+    overflow: hidden;
+}
+body.done {
+    background-color: steelblue;
+    margin: 10px;
+    padding: 10px
+    
+}
+.animate__animated.animate__rotateIn {
+    --animate-duration: 5s;
+    font-family: serif;
+    font-size: larger;
+    color: darkblue;
+}
+.thanks {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+.awesome {
+    text-align: center;
+    align-self: center;
+}
 /*for small screens*/
 @media screen and (max-width: 639px) {
     .column {
