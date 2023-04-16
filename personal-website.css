@@ -415,6 +415,8 @@ body {
     display: flex;
     vertical-align: middle;
     align-content: center;
+    border: 5px double darkred;
+    margin-top: 60px;
 }
 #safe-img {
     flex-wrap: wrap;
@@ -424,6 +426,7 @@ body {
     vertical-align: middle;
     align-content: center;
     margin-top: 60px;
+    border: 5px double darkred;
 }
 h2 {
     float: left;
